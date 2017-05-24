@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:OneDriveUploaderSample"
+             x:Class="OneDriveUploaderSample.MainPage">
+    <StackLayout>
+        <Label x:Name="description" Text="Microsoftアカウントでログインしてください。" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Button x:Name="authButton" Text="認証" Clicked="authButton_Clicked"/>
+    </StackLayout>
+
+
+</ContentPage>

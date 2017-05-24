@@ -16,7 +16,7 @@ namespace OneDriveUploaderSample
             private set;
         }
 
-        private const string _ONEDRIVE_APP_ID = "00000000401D9638";
+        private const string _ONEDRIVE_APP_ID = "";
 
         public App()
         {

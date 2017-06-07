@@ -17,7 +17,7 @@ namespace OneDriveUploaderSample
         }
 
         // ここに文字列でアプリケーション IDを指定してください。例:"0000000desak0ui9"
-        private const string _ONEDRIVE_APP_ID = //"";
+        private const string _ONEDRIVE_APP_ID = "";
 
         public App()
         {
